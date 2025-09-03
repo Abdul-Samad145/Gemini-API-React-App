@@ -1,0 +1,182 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+      
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.8rem;
+            font-weight: 300;
+            background: linear-gradient(90deg, #ff6f61, #00bcd4);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 15px rgba(0, 188, 212, 0.3);
+            letter-spacing: 2px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+     
+
+        .input1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            gap: 15px;
+        }
+
+        .input {
+            padding: 15px 20px;
+            border-radius: 12px;
+            border: 2px solid #2c3e50;
+            width: 350px;
+            font-size: 18px;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.05);
+       
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+       
+
+        button {
+            padding: 15px 25px;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+    
+        button:hover {
+            background: linear-gradient(135deg, #0056b3 0%, #003f7f 100%);
+        }
+
+       
+        .respons {
+            background: rgba(255, 255, 255, 0.02);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 2rem auto;
+            max-height: 600px;
+            overflow-y: auto;
+            border: 2px solid rgba(255, 235, 205, 0.1);
+            width: 70%;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .respons::-webkit-scrollbar {
+            width: 8px;
+        }
+
+
+        .respons::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #007bff, #00bcd4, lightgreen,yellow);
+            border-radius: 4px;
+        }
+
+        .response1 {
+            font-size: 17px;
+            line-height: 1.8;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.02);
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+
+        .response1:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-left-color: #007bff;
+            transform: translateX(5px);
+        }
+
+        .response1 h2 {
+            border-bottom: 3px solid #ff6f61;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            display: inline-block;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-size: 1.7rem;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .response1 h2:hover {
+            color: #ff6f61;
+            border-color: #00bcd4;
+            transform: skewX(-5deg);
+        }
+
+        .response1 p {
+            border-bottom: 2px dashed rgba(46, 204, 113, 0.3);
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            display: inline-block;
+            color: #a8e6cf;
+            font-family: 'Verdana', sans-serif;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            line-height: 1.6;
+        }
+
+        .response1 p:hover {
+            color: #2ecc71;
+            border-color: #2ecc71;
+            transform: translateX(5px);
+        }
+
+
+
+        @media (max-width: 768px)
+         {
+            .input {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .respons {
+                width: 90%;
+                padding: 15px;
+            }
+            
+            .input1 {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            button {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+        }

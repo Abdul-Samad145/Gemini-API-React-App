@@ -1,12 +1,48 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Gemini API React App : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+📌 About the Project: 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is a React-based web application where I practiced calling the Gemini API directly using axios.
+The app allows users to enter a question/prompt, send it to the API, and display the response dynamically.
+
+Key Features:
+
+✅ Built with React + Vite
+
+✅ API call using axios
+
+✅ Markdown rendering with react-markdown for cleaner responses
+
+✅ Responsive UI with simple CSS styling
+
+✅ Loading state handling while fetching response
+
+✅ Beginner-friendly structure for learning API integration
+
+
+⚠️ Note:
+The API key is not included in this repository for security reasons. You will need to add your own API key inside the Url.jsx file.
+
+
+
+🛠️ How It Works : 
+
+User types a prompt/question in the input field.
+
+On clicking Send, an API request is made to the Gemini API using axios.
+
+The app waits for the response (loading... is shown).
+
+Once the response is received, it is displayed using ReactMarkdown.
+
+
+Picture : 
+
+<img width="1890" height="919" alt="Screenshot 2025-09-04 003346" src="https://github.com/user-attachments/assets/73704c77-a850-45c9-89c7-2333ae377215" />
+
+
+If an error occurs, an error message is shown instead.

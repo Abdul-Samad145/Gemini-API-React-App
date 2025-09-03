@@ -40,9 +40,13 @@ The app waits for the response (loading... is shown).
 Once the response is received, it is displayed using ReactMarkdown.
 
 
+If an error occurs, an error message is shown instead.
+
+
 Picture : 
 
-<img width="1890" height="919" alt="Screenshot 2025-09-04 003346" src="https://github.com/user-attachments/assets/73704c77-a850-45c9-89c7-2333ae377215" />
+<img width="1890" height="919" alt="Screenshot 2025-09-04 003346" src="https://github.com/user-attachments/assets/3a8d300f-f2c8-4565-8dfb-1649b19209ca" />
 
 
-If an error occurs, an error message is shown instead.
+
+
